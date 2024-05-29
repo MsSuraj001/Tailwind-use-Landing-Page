@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page use it tailwind css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-red-400 h-20 w-[100vw] flex justify-between px-8 items-center shadow-2xl">
+        <div class="md:text-3xl font-bold text-gray-900">Logo Car</div>
+
+        <div class="sm:hidden md:hidden lg:block hidden">
+            <input type="text" class="rounded-xl p-1 w-45 px-4" placeholder="Search.......">
+            <button class="bg-gray-400 p-1 px-3 rounded-xl hover:bg-gray-500 boder-none">Search</button>
+        </div>
+
+        <div class="hidden sm:block list-none md:text-xl font-medium sm:flex sm:justify-between">
+            <li class="px-3">Home</li>
+            <li class="px-3">About</li>
+            <li class="px-3">Servic</li>
+            <li class="px-3">Contect</li>
+        </div>
+
+                <!-- This is the mobile visible  -->
+        <div class="sm:hidden lg:hidden block">
+            <button class="sm:hidden lg:hidden block text-3xl">&#8801;</button>
+        </div>
+    </header>
+
+    <!-- this is the home section -->
+    <section class="h-[87vh] w-[100vw] realative bg-cover opacity-50 flex justify-center text-center items-center bg-[url('https://media.istockphoto.com/id/1195441715/photo/szechenyi-chain-bridge-on-the-danube-rive-at-night-budapest-hungary.jpg?s=2048x2048&w=is&k=20&c=RIQbSEwzuu5boNlpYTis-Ou0keHFqG3Fzb3wiUQgl6s=')]">
+    </section>
+    <div class="absolute w-[500px] h-[100px] bottom-[20rem] left-[22rem] text-center">
+     <h1 class="sm:text-4xl font-bold text-white sm:mb-4">Let's try it</h1>
+     <p class="sm:text-2xl text-indigo-500 font-bold sm:mb-2">Do you have any chance</p>
+     <p class="sm:text-2xl text-gray-900 ">Bacause a like it</p>
+    </div>
+
+    <!-- this is the card sections -->
+    <section class="w-[100vw] h-[200px] sm:flex sm:flex-row sm:justify-between px-4 py-7">
+        <div class="sm:w-[30%] sm:h-[100%] py-5 border-2 my-3 sm:w-[40$]  flex justify-center items-center flex-col rounded-xl hover:shadow-xl">
+            <img class="w-[100px] h-[70px] " src="https://c4.wallpaperflare.com/wallpaper/66/220/943/bmw-cars-car-sport-car-wallpaper-preview.jpg" alt="">
+            <p>This the first card</p>
+            <span>This is very domandable car in current time</span>
+        </div>
+
+        <div class="sm:w-[30%] sm:h-[100%] py-5 border-2 my-3 sm:w-[40$] flex justify-center items-center flex-col rounded-xl hover:shadow-xl">
+            <img class="w-[100px] h-[70px] " src="https://c4.wallpaperflare.com/wallpaper/66/220/943/bmw-cars-car-sport-car-wallpaper-preview.jpg" alt="">
+            <p>This the first card</p>
+            <span>This is very domandable car in current time</span>
+        </div>
+
+        <div class="sm:w-[30%] sm:h-[100%] py-5 border-2 my-3 sm:w-[40$] flex justify-center items-center flex-col rounded-xl hover:shadow-xl">
+            <img class="w-[100px] h-[70px] " src="https://c4.wallpaperflare.com/wallpaper/66/220/943/bmw-cars-car-sport-car-wallpaper-preview.jpg" alt="">
+            <p>This the first card</p>
+            <span>This is very domandable car in current time</span>
+        </div>
+    </section>
+
+    <!-- this is the footer -->
+    <footer>
+        <hr class="py-5">
+        <svg class="w-12 h-12 text-center" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/><path d="M10.75 7.75h2.5v4.5h-2.5zm0 6h2.5v2.5h-2.5z"/></svg>
+    </footer>
+</body>
+</html>
